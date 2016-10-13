@@ -6,6 +6,10 @@ rhino-xray
 
 __Rhino-xray__ is a modified version of JavaScript engine (based on Mozilla's Rhino open-source implementation of JavaScript) to help malware analyst to analyze obfuscated malicious JavaScript. Extracting the concealed strings in obfuscated JavaScripts can be challenging and time-consuming and this tool can come in handy for that.
 
+Downloads
+----
+Rhino-xray is now available here: https://github.com/ch4meleon/rhino-xray/releases/
+
 Usage
 ----
 * Run againsts a JavaScript file
