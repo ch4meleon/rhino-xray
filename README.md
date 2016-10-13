@@ -61,9 +61,10 @@ You can pre-define some JavaScript objects, functions or variables before runnin
     }
 
 ## Built-in Functions
-To print out something, you may use 'alert' or 'print'
+To print out something, you may use 'alert' or 'print':
+
     alert("my string");
-    print("another string");
+    print("another string...");
 
 ## Contact
 ch4meleon@protonmail.com
