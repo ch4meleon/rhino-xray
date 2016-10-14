@@ -21,11 +21,11 @@ java -cp rhino-xray.jar org.mozilla.javascript.tools.debugger.Main
 
 * Run debugger on JavaScript file
 ```
-java -cp js.jar org.mozilla.javascript.tools.debugger.Main file.js
+java -cp rhino-xray.jar org.mozilla.javascript.tools.debugger.Main file.js
 ```
 
 ## init.js
-You can pre-define some JavaScript objects, functions or variables before running the malicious script.
+Sometimes malicious JavaScripts have calling to functions that will break your analysis in runtime. You can pre-define JavaScript objects, functions or variables before executing it.
 
     var WScript = new Object();
     
@@ -61,7 +61,7 @@ You can pre-define some JavaScript objects, functions or variables before runnin
     }
 
 ## Built-in Functions
-To print out something, you may use 'alert' or 'print':
+To print out something, you can use 'alert' or 'print':
 
     alert("my string");
     print("another string...");
