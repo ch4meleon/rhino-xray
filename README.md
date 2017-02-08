@@ -66,6 +66,9 @@ To print out something, you can use 'alert' or 'print':
     alert("my string");
     print("another string...");
 
+## Screenshots
+<img align="center" src="./images/1.png" alt="Screenshot #1y" />
+
 ## Contact
 ch4meleon@protonmail.com
 
